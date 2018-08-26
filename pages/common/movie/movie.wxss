@@ -1,0 +1,19 @@
+@import "../str/str.wxss";
+.movie-unit{
+  display: flex;
+ flex-direction: column;
+ width: 30%;
+ height: 410rpx;
+ margin-left: 20rpx;
+}
+.title{
+ margin-top: 20rpx;
+ margin-bottom: 10rpx;
+ font-size: 25rpx;
+ font-weight: bolder;
+ align-items: center;
+}
+.avatar{
+  width: 200rpx;
+  height: 290rpx;
+}

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/common/str/str",
+    "pages/common/movie/movie",
+    "pages/common/movie-list/movie-list",
+    "pages/logs/logs",
+    "pages/common/more"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "0123",
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#76EE00",
+    "backgroundColorBottom": "#8A2BE2"
+  }
+}

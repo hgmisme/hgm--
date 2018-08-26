@@ -1,0 +1,25 @@
+@import "../common/movie-list/movie-list.wxss";
+
+.search{
+  height: 60rpx;
+  padding: 20rpx 30rpx;
+  background-color: #42bd56;
+  position: relative
+}
+.search-input{
+  background-color: white;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 25rpx;
+  height:60rpx;
+   vertical-align: middle;
+}
+.search-image {
+   vertical-align: middle;
+  position: absolute;
+  width: 32rpx;
+  height: 32rpx;
+  top: 35rpx;
+  left: 43%;
+  z-index: 999;
+}

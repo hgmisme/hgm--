@@ -1,0 +1,22 @@
+
+<import src="../movie/movie.wxml" />
+<template name='movie-list'>
+  <!-- 各个分类 -->
+  <view class='movies-section'>
+    <view class='movie-category'>
+    <text class='category-name'>{{title}}</text>
+    <text class='category-more' data-type="{{type}}" catchtap="getmore">更多</text>
+    </view>
+
+    <!-- 左右滑动 -->
+    <scroll-view scroll-x="true">
+      <view class='movie-list'>
+        <block wx:for="{{movies}}" wx:for-item="item">
+          <!-- 引入图片 -->
+          <template is="movie" data="{{...item}}"/>
+          
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+  </template>

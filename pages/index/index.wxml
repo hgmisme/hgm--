@@ -1,0 +1,12 @@
+<import src="../common/movie-list/movie-list.wxml" />
+<view class='page-body'>
+  <!-- 顶部搜索框开始 -->
+  <view class='search'>
+    <image class='search-image' src='/images/search.png'></image>
+    <input type='text' class='search-input' placeholder='{{search_word}}' placeholder-class='search-default'></input>
+  </view>
+  <!-- 顶部狂结束 -->
+  <block wx:for="{{listdata}}" wx:for-item="item" wx:for-index="ids">
+    <template is="movie-list" data="{{...item}}"/>
+  </block>
+</view>

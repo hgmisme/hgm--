@@ -1,0 +1,16 @@
+
+.score-page,.score-stars{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.score-stars image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.score{
+  font-size: 23rpx;
+  color: #999;
+  margin-left: 10rpx;
+}

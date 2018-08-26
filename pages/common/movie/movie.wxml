@@ -1,0 +1,9 @@
+<import src="../str/str.wxml"/>
+<template name='movie'>
+  
+  <view class="movie-unit">
+  <image src='{{image}}'class='avatar'></image>
+  <text class='title'>{{title}}</text>
+  <template is="str" data="{{...rating}}"></template>
+  </view>
+</template>

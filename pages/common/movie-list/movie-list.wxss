@@ -1,0 +1,33 @@
+@import "../movie/movie.wxss";
+.movies-section{
+  margin-top: 20rpx;
+
+}
+.movie-category{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.category-name{
+  width: 200rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  color: #333;
+  font-weight: bold;
+  font-size: 30rpx;
+  border-left: 3px solid #42BD56;
+  padding-left: 10rpx;
+}
+.category-more{
+  align-items: right;
+  width: 100rpx;
+  font-size: 25rpx;
+  color: #42BD56;
+}
+.movie-list{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  padding: 10rpx
+}

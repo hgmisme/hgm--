@@ -1,0 +1,16 @@
+<template name="str">
+  <view class="score-page">
+    <view class="score-stars">
+      <!-- <view wx:for="{{stars}}">
+        {{index}}--{{item}}
+    </view> -->
+      <block wx:for="{{stars}}" wx:key="">
+
+        <image wx:if="{{item==1}}" src="/images/star.png"></image>
+        <image wx:else if="{{item==0}}" src='/images/no-star.png'></image>
+      </block>
+    </view>
+    <text class='score'>{{score}}</text>
+  </view>
+
+</template>
